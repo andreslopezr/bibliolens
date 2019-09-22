@@ -30,6 +30,5 @@ json_constructor = \
     "contenido": f"{Contenido}",
     "portada": f"{Portada}"
 }
-
 libros = [json_constructor, json_constructor, json_constructor] #podemos crear multiples json en una lista
 print(json.dumps(libros)) #convertir el diccionario a json file y enviarlo a js, si es lista creara varios json en uno solo
