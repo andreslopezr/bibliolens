@@ -1,11 +1,13 @@
 import sys
-from indexes import *
 import json
 
+titulo, autor, editorial, genero, color, contenido, prioridad = 1, 2, 3, 4, 5, 6, 7 #referencia de index
 
 '''crear busquedas con los argumentos enviado por js'''
 sys.argv[titulo]
 sys.argv[autor]
+sys.argv[genero]
+sys.argv[contenido]
 
 
 '''Con la busqueda recuperar consultas de sql'''
@@ -28,4 +30,6 @@ json_constructor = \
     "contenido": f"{Contenido}",
     "portada": f"{Portada}"
 }
-print(json.dumps(json_constructor)) #convertir el diccionario a json file y enviarlo a js
+
+libros = [json_constructor, json_constructor, json_constructor] #podemos crear multiples json en una lista
+print(json.dumps(libros)) #convertir el diccionario a json file y enviarlo a js, si es lista creara varios json en uno solo
