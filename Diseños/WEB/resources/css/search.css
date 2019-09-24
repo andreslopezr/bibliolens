@@ -1,0 +1,62 @@
+.principalSearch
+{
+    margin: 10px;
+    width: 86%;
+    border: 2px solid #4a61ba;
+    font-size: 30px;
+    border-radius: 50px;
+    display: flex;
+    padding: 0 25px;
+}
+
+
+.search
+{
+    margin: 10px;
+    margin-top: 20px;
+    border: 2px solid #4a61ba;
+    font-size: 15px;
+    border-radius: 50px;
+    display: flex;
+    width: 15%;
+    height: 25px;
+    padding: 0 5px;
+}
+
+
+select
+{
+    background: #e4eaf3;
+    border: 2px solid #4a61ba;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 5px;
+    width: 16%;
+    border-radius: 50px;
+    margin-left: 1%;
+    margin-top: 25px;
+    -webkit-appearance: none;
+    line-height: 1;
+}
+option
+{
+    background: #e4eaf3;
+    border: none;
+}
+
+
+
+.iconSearch
+{
+    font-size: 30px;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    width: 100px;
+    color: #e4eaf3;
+    background-color: #4a61ba;
+    padding: 4px;
+    border-radius: 50px;
+    text-align: center;
+}
+

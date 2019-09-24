@@ -60,6 +60,7 @@ div li {
     padding: 0;
     font-family: 'Montserrat', 'sans-serif';
     list-style-type: none;
+    text-decoration: none;
 }
 
 .metroui {
@@ -77,6 +78,8 @@ div li {
     text-align: center;
     position: relative;
     transition: 0.4s;
+    text-decoration: none;
+    color: #e4eaf3;
 }
 .item:hover {
     transform: scale(0.9);
