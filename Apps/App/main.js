@@ -5,15 +5,15 @@ function createWindow () //crear ventana alto y ancho
     window = new BrowserWindow    //nueva ventana
     (
         {
-            width: 800, //ancho
-            height: 600, //alto
+            width: 1280, //ancho
+            height: 720, //alto
             webPreferences: 
             {
                 nodeIntegration: true,
             }
         }
     )
-    window.loadFile('./Views/index.html') //archivo a abrir
+    window.loadFile('./Views/book_aggregator.html') //archivo a abrir
 }
 
 

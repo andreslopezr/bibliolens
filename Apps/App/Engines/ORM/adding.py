@@ -1,7 +1,7 @@
 from sqlalchemy.exc import IntegrityError
 from connection import *
 import sys
-titulo, autor, editorial, genero, color, contenido, prioridad = 1, 2, 3, 4, 5, 6, 7 #referencia de index
+titulo, autor, editorial, genero, contenido, prioridad = 1, 2, 3, 4, 5, 6 #referencia de index
 
 
 sesion = createDB() #con esta clase interactuamos con las tablas
