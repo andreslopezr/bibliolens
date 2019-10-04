@@ -3,6 +3,7 @@
 <head>
     <title>Registro</title>
     <link rel="stylesheet" href="../Styles/book_aggregator.css">
+    <script src="../Linkers/book_aggregator.js"></script>
 </head>
 <body>
     
@@ -18,7 +19,7 @@
 
     <div class="forma">
         <h2>INTRODUCE LOS DATOS DEL LIBRO</h2>
-        <form action="search()">
+        <form name="newBook" onsubmit="addBook()">
             <p>
                 <label for="libro_id">ID</label>
                 <input type="text">
